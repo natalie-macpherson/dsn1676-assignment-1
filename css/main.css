@@ -1,0 +1,62 @@
+@-moz-viewpoint {width: divice-width; scale: 1;}
+@-ms-viewpoint {width: divice-width; scale; 1;}
+@-0-viewpoint {width: divice-width; scale; 1;}
+@viewpoint {width: divice-width; scale; 1;}
+
+html {
+    box-sizing: border-box;
+
+    background-color: #e7e5d9;
+    color: #231f20;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.img-flex {
+	display: block;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.masthead {
+	background: transparent url("../images/masthead-bg.png") repeat left center;
+	text-align: center;
+}
+
+.star {
+	margin: 0 0.2em 0 0;
+	width: 1.2em;
+	vertical-align: middle;
+}
+
+.title {
+	display: inline-block;
+	color: #fff;
+	background-color: #e7e5d9;
+}
+
+.img-border {
+    border: 1px solid #000;   
+}
+
+.box {
+    background-color: #87714f;
+    text-align: center; 
+    margin: 0;
+}
+
+.pic {
+    width: 4em;
+    margin-bottom: .5em;
+}
+
+.panel {
+    border-image: url("../image/border.png") 25 25 25 25 stretch stretch;
+    border-width: 20px 20px 20px 20px;    
+}
