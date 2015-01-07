@@ -37,7 +37,6 @@ body {
 
 .title {
 	display: inline-block;
-	color: #fff;
 	background-color: #e7e5d9;
 }
 
@@ -49,8 +48,13 @@ body {
     background-color: #87714f;
     text-align: center; 
     margin: 0;
+    color: white;
 }
 
+.crimes {
+    text-align: left;
+    color: #fff;
+}
 .pic {
     width: 4em;
     margin-bottom: .5em;
