@@ -25,7 +25,7 @@ body {
 }
 
 .masthead {
-	background: transparent url("../img/masthead-bg.png") repeat left center;
+	background: transparent url("../image/masthead-bg.png") repeat left center;
 	text-align: center;
 }
 
@@ -38,6 +38,7 @@ body {
 .title {
 	display: inline-block;
 	background-color: #e7e5d9;
+    text-shadow: 3px 3px 0 #bfbfbe;
 }
 
 .img-border {
